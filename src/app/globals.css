@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  @apply bg-cloud text-ink antialiased;
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+
+.registan-pattern {
+  background-size: 24px 24px;
+}
+
+.nav-shadow {
+  box-shadow: 0 -12px 24px rgba(11, 27, 58, 0.06);
+}
+
+.gradient-border {
+  background: linear-gradient(135deg, rgba(23, 59, 143, 0.2), rgba(18, 164, 176, 0.3));
+}
+
+.quote-card {
+  background: linear-gradient(120deg, rgba(231, 199, 119, 0.2), rgba(255, 255, 255, 0.9));
+}
